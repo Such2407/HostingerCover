@@ -870,7 +870,7 @@ nav{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .rec-col{
-        margin-right: 20px;
+        margin-right: 0;
         padding: 30px;
         
     }
@@ -881,6 +881,9 @@ nav{
     }
     .md-ml{
         margin-left: -50px;
+    }
+    .footer{
+        padding-right: 0;
     }
     
 }
@@ -893,9 +896,7 @@ nav{
 }
 @media screen and (max-width:770px){
     .secound-section{
-        width: 100%;
         margin: auto;
-        padding: 50px;
         height: 20px;
         margin-bottom: 60px;
         
@@ -1047,6 +1048,9 @@ nav{
         margin:0;
         width: 20px;
     }
+    .footer{
+        margin: 0;
+    }
     
     /* .col3,.row2{
         display: flex;
@@ -1107,7 +1111,8 @@ nav{
     .rec-text{
         font-size: 20px;
     }
-    body{
-        overflow-x: hidden;
+    .footer{
+        margin: 0;
+    }
 }
 
